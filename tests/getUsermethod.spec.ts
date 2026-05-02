@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 
 
-test('jsonplaceholder get api test', async ({ request }) => {
+test('json placeholder get api test', async ({ request }) => {
     
     const response = await request.get("https://jsonplaceholder.typicode.com/users");
     console.log(await response.body);
