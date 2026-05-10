@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { equal } from 'assert/strict';
+
 
 
 test('Post call example with token ', async ({ request }) => {
